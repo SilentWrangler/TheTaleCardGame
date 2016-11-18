@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class Card : MonoBehaviour {
+public class Card : NetworkBehaviour {
 
 
 	public Sprite Border;
