@@ -19,9 +19,9 @@ public class MapBuilder : NetworkBehaviour {
 		Create ();
 	}*/
 	 
-	/*void OnStartServer(){
+	public override void OnStartServer(){
 		Create ();
-	}*/ 
+	} 
 
 
 	public void Create(){
