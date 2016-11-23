@@ -7,14 +7,17 @@ using UnityEngine.Networking;
 [RequireComponent (typeof(SpriteRenderer))]
 public class TileInfo : NetworkBehaviour {
 
-	[Range(0,6)]public int terrainType;
+	[SyncVar][Range(0,6)]public int terrainType;
 	public Sprite sprite;
 	public Vector2 targetPosition;
 	public float speed;
+	public Sprite[] sprites;
 
 	// Use this for initialization
 	void Start () {
+		sprite = sprites [terrainType];
 		gameObject.GetComponent<SpriteRenderer> ().sprite = sprite;
+
 	}
 	
 	// Update is called once per frame
