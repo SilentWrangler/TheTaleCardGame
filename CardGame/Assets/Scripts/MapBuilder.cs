@@ -12,7 +12,6 @@ public class MapBuilder : NetworkBehaviour {
 	public GameObject Tile;
 	[Range(3,8)]public int size;
 	[Range(2,4)]public int players;
-	public Sprite[] sprites;
 
 	// Use this for initialization
 	/*void Start () {
@@ -91,7 +90,6 @@ public class MapBuilder : NetworkBehaviour {
 		o =(GameObject)Instantiate (Tile, pos, Quaternion.identity);
 		ti = o.GetComponent<TileInfo> ();
 		ti.terrainType = Created;
-		ti.sprite = sprites [ti.terrainType];
 		ti.targetPosition = (Vector2)pos;
 		NetworkServer.Spawn(o);
 		tiles[x,y] = o;

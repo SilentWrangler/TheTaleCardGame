@@ -1,0 +1,17 @@
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/obj/Debug/Assembly-CSharp.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/UnityEngine.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/UnityEditor.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Rina/Desktop/TheTaleCardGame/CardGame/Temp/bin/Debug/Mono.Cecil.Mdb.dll
