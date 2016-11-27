@@ -12,6 +12,11 @@ public class TileInfo : NetworkBehaviour {
 	public Vector2 targetPosition;
 	public float speed;
 	public Sprite[] sprites;
+	public Card[] Faction1;
+	public Card[] Faction2;
+	public Card[] Faction3;
+	public Card[] Faction4;
+	public Card[] Monsters;
 
 	// Use this for initialization
 	void Start () {

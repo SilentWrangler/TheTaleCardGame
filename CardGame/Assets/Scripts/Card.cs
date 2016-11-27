@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class Card : NetworkBehaviour {
 
@@ -9,6 +10,12 @@ public class Card : NetworkBehaviour {
 	public Sprite Image;
 	public string Name;
 	public string FlavourText;
+
+
+	public GUIText ForceNumber;
+	public GUIText MagicNumber;
+	public GUIText Flavour;
+	public GUIText GUIName;
 
 	public int Force;
 	public int Magic;

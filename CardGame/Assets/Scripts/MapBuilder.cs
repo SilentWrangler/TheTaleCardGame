@@ -88,6 +88,7 @@ public class MapBuilder : NetworkBehaviour {
 		GameObject o;
 		TileInfo ti;
 		o =(GameObject)Instantiate (Tile, pos, Quaternion.identity);
+		o.name = "Tile" + x.ToString () + y.ToString ();
 		ti = o.GetComponent<TileInfo> ();
 		ti.terrainType = Created;
 		ti.targetPosition = (Vector2)pos;
