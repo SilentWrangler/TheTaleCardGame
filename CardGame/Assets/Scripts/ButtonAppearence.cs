@@ -8,7 +8,8 @@ public class ButtonAppearence : MonoBehaviour {
 
 
 	[SerializeField]Sprite transparent;
-	GameObject deck;
+	[SerializeField]InfoSource SourceType;
+	GameObject source;
 
 	[SerializeField]Image border;
 	[SerializeField]Image picture;
@@ -23,9 +24,20 @@ public class ButtonAppearence : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (deck) {
+		if (source) {
 		} else {
-			deck = GameObject.Find (Constants.DeckName);
+			switch (SourceType){
+			case InfoSource.Hand:
+				source = GameObject.Find (Constants.DeckName);
+				break;
+			case InfoSource.Collection:
+				source = GameObject.Find ("Collection");
+				break;
+			case InfoSource.SelectedCard:
+				source = GameObject.Find ("SelectedCard");
+				break;
+
+			}
 			SetImages ();
 		}
 	}
@@ -42,4 +54,12 @@ public class ButtonAppearence : MonoBehaviour {
 		MagicNumber.text = "";
 		CardName.text = "";
 	}
+}
+
+
+
+enum InfoSource{
+	Hand,
+	Collection,
+	SelectedCard
 }
